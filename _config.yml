@@ -16,7 +16,7 @@ footer_text: >
 keywords: Raul Rincon, smart resilience, risk assessment, equitable modeling  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: Logo.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon:   # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://rinconraul.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -51,7 +51,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -67,13 +67,13 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: rinconraul # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: raul-rincon-garcia # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: ObvaqGYAAAAJ&hl=en # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -82,7 +82,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 osf_id: # your OSF ID
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Raul-Rincon-3 # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
 work_url: # work page URL
@@ -342,7 +342,7 @@ imagemagick:
     - ".png"
     - ".tiff"
   output_formats:
-    webp: "-resize 800x"
+    webp: "-resize 1000x"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
@@ -365,7 +365,7 @@ enable_masonry:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
+enable_darkmode:            false   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
