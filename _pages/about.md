@@ -2,25 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Raul Rincon (he/him/his)</p>
+    <p>Ph.D. Student, Research Assistant </p>
+    <p>Rice University, Dept. of Civil & Environmental Engineering</p>
+
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Currently, I am a Ph.D. student in the Department of Civil and Environmental Engineering at [Rice University](https://www.rice.edu/), where I work with [Dr. Jamie Ellen Padgett](https://padgett.rice.edu/) on _smart and equitable techniques for  measuring and modeling dynamic resilience on infrastructure systems_.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My work focuses on developing resilience modeling approaches, for multi-scale infrastructure systems, that consider smart strategies to analyze low-probability events, compute metrics in multi-scale and heterogeneous systems, and cope with ever-changing conditions (such as aging, deterioration, or technology shifts). I am interested in improving the science of measuring, comparing, and updating infrastructure systems performance to attain accurate, unbiased, and inequitable estimates. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I completed both my bachelor's and master’s degrees in civil engineering and structural engineering, respectively, at [Universidad de los Andes](https://uniandes.edu.co/) (Uniandes), Colombia. Before joining the Padgett Research Group at Rice University, I worked as a research assistant for the [Material and Civil Works Research Center](https://cimoc.uniandes.edu.co/) and as an instructor of undergraduate courses for the Department of Civil and Environmental Engineering at Uniandes. I have been awarded with the [Bachiller por Colombia - Mario Galan Gomez](https://www.ecopetrol.com.co/wps/portal/Home/bachilleresecopetrol/#conoce) scholarship and I am a [Fulbright-Minciencias](https://fulbright.edu.co/en/fulbright-minciencias-awards/) scholar.
