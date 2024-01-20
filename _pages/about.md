@@ -15,9 +15,9 @@ profile:
     <p>raul.rincon@rice.edu</p>
 
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 I am a Ph.D. student in the Department of Civil and Environmental Engineering at [Rice University](https://www.rice.edu/), where I work with [Dr. Jamie Ellen Padgett](https://padgett.rice.edu/) on _smart and equitable techniques for  measuring and modeling dynamic resilience on infrastructure systems_.
