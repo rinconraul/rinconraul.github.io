@@ -1,13 +1,14 @@
 ---
 layout: page
 title: submenus
-nav: true
-nav_order: 7
+nav: false
+nav_order: 2
 dropdown: true
 children:
-    - title: publications
+    - title: teaching
       permalink: /publications/
-    - title: divider
-    - title: projects
+    - title: conference publications
+      permalink: /publications/
+    - title: codes
       permalink: /projects/
 ---
