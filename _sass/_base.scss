@@ -165,9 +165,9 @@ blockquote {
   width: 100%;
 
   .more-info {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    font-family: serif;
 
     p {
       display: inline-block;
@@ -352,7 +352,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       i::before {

@@ -10,9 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Raul Rincon (he/him/his)</p>
-    <p>Ph.D. Student, Research Assistant </p>
-    <p>Rice University, Dept. of Civil & Environmental Engineering</p>
-    <p>raul.rincon@rice.edu</p>
+    <p>Ph.D. Student </p>
+    <p>Rice University</p>
+    <p>Dept. of Civil & Environmental Engineering</p>
 
 
 news: false  # includes a list of news items

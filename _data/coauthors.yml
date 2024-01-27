@@ -1,7 +1,11 @@
 "Padgett":
-  - firstname: ["Jamie", "J.", "J. E.", "Jamie Ellen"]
+  - firstname: ["Jamie", "Jamie E.","J.", "J.E.", "Jamie Ellen"]
     url: https://padgett.rice.edu/
 
 "Reyes":
-  - firstname: ["Juan", "Juan Carlos", "J. C.", "J.C."]
+  - firstname: ["Juan C.", "Juan Carlos", "J. C.", "J.C."]
     url: https://civilyambiental.uniandes.edu.co/en/professors/juan-carlos-reyes-ortiz
+
+"Correal":
+  - firstname: ["Juan F.", "Juan Francisco", "J. F.", "J.F."]
+    url: https://civilyambiental.uniandes.edu.co/en/professors/juan-francisco-javier-correal-daza
