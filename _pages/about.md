@@ -26,4 +26,4 @@ My work focuses on developing resilience modeling approaches, for multi-scale in
 
 I completed both my bachelor's and master’s degrees in civil engineering and structural engineering, respectively, at [Universidad de los Andes](https://uniandes.edu.co/) (Uniandes), Colombia. Before joining the Padgett Research Group at Rice University, I worked as a research assistant for the [Material and Civil Works Research Center](https://cimoc.uniandes.edu.co/) and as an instructor of undergraduate courses for the Department of Civil and Environmental Engineering at Uniandes. I have been awarded with the [Bachiller por Colombia - Mario Galan Gomez](https://www.ecopetrol.com.co/wps/portal/Home/bachilleresecopetrol/#conoce) scholarship and I am a [Fulbright-Minciencias](https://fulbright.edu.co/en/fulbright-minciencias-awards/) scholar.
 
-Download [full CV](assets\pdf\Jose Raul Rincon Garcia-Full CV.pdf).
+Download [full CV](assets\pdf\fullcv.pdf).
