@@ -6,7 +6,7 @@ subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: raul-rincon.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Raul Rincon (he/him/his)</p>
@@ -23,9 +23,9 @@ I am a Ph.D. student in the Department of Civil and Environmental Engineering at
 
 My work focuses on developing resilience modeling approaches, for multi-scale infrastructure systems, that consider smart strategies to analyze low-probability events, compute metrics in multi-scale and heterogeneous systems, and cope with ever-changing conditions (such as aging, deterioration, or technology shifts). I am interested in improving the science of measuring, comparing, and updating infrastructure systems performance to attain accurate, unbiased, and inequitable estimates. 
 
-I completed both my bachelor's and master’s degrees in civil engineering and structural engineering, respectively, at [Universidad de los Andes](https://uniandes.edu.co/) (Uniandes), Colombia. Before joining the Padgett Research Group at Rice University, I worked as a research assistant for the [Material and Civil Works Research Center](https://cimoc.uniandes.edu.co/) and as an instructor of undergraduate courses for the Department of Civil and Environmental Engineering at Uniandes. 
+I completed both my bachelor's and master’s degrees in civil engineering and structural engineering, respectively, at [Universidad de los Andes](https://uniandes.edu.co/) (Uniandes), Colombia. Before joining the [Padgett Research Group](https://padgett.rice.edu/) at Rice University, I worked as a research assistant for the [Material and Civil Works Research Center](https://cimoc.uniandes.edu.co/) and as an instructor of undergraduate courses for the Department of Civil and Environmental Engineering at Uniandes. 
 
-I have been awarded with the [Bachiller por Colombia - Mario Galan Gomez](https://www.ecopetrol.com.co/wps/portal/Home/bachilleresecopetrol/#conoce), the [Fulbright-Minciencias](https://fulbright.edu.co/en/fulbright-minciencias-awards/), the 2021 H. W. Reeves Endowed Scholarship, and the 2023 Robert P. and Eleanor Warden Shubinski scholarships. I have also received the [Outstanding Journal Paper Award for 2018](https://ascelibrary.org/doi/full/10.1061/%28ASCE%29CF.1943-5509.0001480) from the ASCE Journal of Performance of Constructed Facilities, the Innovative Teacher Recognition (2019) from Universidad de los Andes, the 1st Place EMI Objective Resilience Student Paper/Presentation Competition at the Engineering Mechanics Institute Conference and Probabilistic Mechanics & Reliability Conference (EMI/PMC2024), and recently have been selected as a 2024-25 Future Faculty Fellow (Rice University).
+I have been awarded with the [Bachiller por Colombia - Mario Galan Gomez](https://www.ecopetrol.com.co/wps/portal/Home/bachilleresecopetrol/#conoce), the [Fulbright-Minciencias](https://fulbright.edu.co/en/fulbright-minciencias-awards/), the 2021 H. W. Reeves Endowed Scholarship, and the 2023 Robert P. and Eleanor Warden Shubinski scholarships. I have also received the [Outstanding Journal Paper Award for 2018](https://ascelibrary.org/doi/full/10.1061/%28ASCE%29CF.1943-5509.0001480) from the ASCE Journal of Performance of Constructed Facilities, the __Innovative Teacher Recognition__ (2019) from Universidad de los Andes, the __1st Place EMI Objective Resilience Student Paper/Presentation Competition__ at the Engineering Mechanics Institute Conference and Probabilistic Mechanics & Reliability Conference (EMI/PMC2024), and recently have been selected as a __2024-25 Future Faculty Fellow__ (Rice University).
 
 
 Download [full CV](assets\pdf\fullcv.pdf).
