@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: 
 nav: true
 nav_order: 3
@@ -10,6 +10,7 @@ nav_order: 3
 #### Rice University ####
 
 __Co-leading the Resilience Seminar of the Gulf Scholars Program at Rice University (GSP@RICE)__
+
 _Fall 2022, Houston, TX, USA_
 
 * Developed the syllabus and co-organized the seminar sessions, co-curricular activities, and assignments for the seminar for the cohort ‘22.
@@ -18,9 +19,10 @@ _Fall 2022, Houston, TX, USA_
 #### Universidad de los Andes ####
 
 __Full-time Lecturer and Researcher (School of Engineering)__
+
 _Bogotá, Colombia, 2017 – 2020_
 
-* Lectured undergraduate courses
+* Lectured undergraduate courses and contributed for more active learning environments, promoting student-centered pedagogical strategies and lifelong learning.
 * Guided undergraduate (senior) research projects (required for bachelor’s degree)
 * Developed course contents, graded course performance, and held regular office hours.
 * Contributed to research projects related to risk analysis on critical infrastructure such as bridges portfolios, buildings, or educative infrastructure to develop action plans for risk mitigation

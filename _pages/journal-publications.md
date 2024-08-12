@@ -1,19 +1,17 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
+permalink: /journal-publications/
+title: Journal Articles Published
 description: 
-nav: true
+nav: false
 nav_order: 2
+
+bib_search: false
 ---
 
 Check [Google Scholar](https://scholar.google.com/citations?user=ObvaqGYAAAAJ&hl=en) for more information and the up-to-date list.
 
-<!-- _pages/publications.md -->
-
-# <!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
+<!-- _pages/journal-publications.md -->
 
 <div class="publications">
 

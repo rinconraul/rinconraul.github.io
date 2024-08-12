@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -15,6 +15,7 @@ profile:
     <p>Dept. of Civil & Environmental Engineering</p>
 
 news: false # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
@@ -27,5 +28,6 @@ I completed both my bachelor's and master’s degrees in civil engineering and s
 
 I have been awarded with the [Bachiller por Colombia - Mario Galan Gomez](https://www.ecopetrol.com.co/wps/portal/Home/bachilleresecopetrol/#conoce), the [Fulbright-Minciencias](https://fulbright.edu.co/en/fulbright-minciencias-awards/), the 2021 H. W. Reeves Endowed Scholarship, and the 2023 Robert P. and Eleanor Warden Shubinski scholarships. I have also received the [Outstanding Journal Paper Award for 2018](https://ascelibrary.org/doi/full/10.1061/%28ASCE%29CF.1943-5509.0001480) from the ASCE Journal of Performance of Constructed Facilities, the __Innovative Teacher Recognition__ (2019) from Universidad de los Andes, the __1st Place EMI Objective Resilience Student Paper/Presentation Competition__ at the Engineering Mechanics Institute Conference and Probabilistic Mechanics & Reliability Conference (EMI/PMC2024), and recently have been selected as a __2024-25 Future Faculty Fellow__ (Rice University).
 
-
-Download [full CV](assets\pdf\fullcv.pdf).
+<p style="text-align:center">
+    <a href="assets\pdf\fullcv.pdf"> Download full CV</a> 
+</p>
