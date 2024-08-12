@@ -10,12 +10,12 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Raul Rincon (he/him/his)</p>
-    <p>Ph.D. Student </p>
+    <p>Ph.D. Candidate </p>
     <p>Rice University</p>
     <p>Dept. of Civil & Environmental Engineering</p>
 
 news: false # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
+rss_icon: false
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---

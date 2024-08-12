@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-#### Rice University ####
+#### **Rice University** ####
 
 __Co-leading the Resilience Seminar of the Gulf Scholars Program at Rice University (GSP@RICE)__
 
@@ -16,7 +16,7 @@ _Fall 2022, Houston, TX, USA_
 * Developed the syllabus and co-organized the seminar sessions, co-curricular activities, and assignments for the seminar for the cohort ‘22.
 * Co-lead the seminar sessions and engaged the students to find their future pathways extensions in the GSP@RICE and as change agents.
 
-#### Universidad de los Andes ####
+#### **Universidad de los Andes** ####
 
 __Full-time Lecturer and Researcher (School of Engineering)__
 
