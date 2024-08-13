@@ -2,9 +2,9 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: 
+description: Overview of my teaching experience
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 #### **Rice University** ####
