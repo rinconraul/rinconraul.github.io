@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://padgett.rice.edu/faculty/mr-raul-rincon'>Rice University</a>
 
 profile:
   align: right
@@ -20,7 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate in the Department of Civil and Environmental Engineering at [Rice University](https://www.rice.edu/), where I work with [Dr. Jamie Ellen Padgett](https://padgett.rice.edu/) on _smart and equitable techniques for  measuring and modeling dynamic resilience on infrastructure systems_.
+I am a Ph.D. candidate in the [Department of Civil and Environmental Engineering](https://profiles.rice.edu/student/raul-rincon-garcia) at Rice University, where I work with [Dr. Jamie Ellen Padgett](https://padgett.rice.edu/) on _smart and equitable techniques for  measuring and modeling dynamic resilience on infrastructure systems_.
 
 My work focuses on developing resilience modeling approaches, for multi-scale infrastructure systems, that consider smart strategies to analyze low-probability events, compute metrics in multi-scale and heterogeneous systems, and cope with ever-changing conditions (such as aging, deterioration, or technology shifts). I am interested in improving the science of measuring, comparing, and updating infrastructure systems performance to attain accurate, unbiased, and equitable estimates. 
 
