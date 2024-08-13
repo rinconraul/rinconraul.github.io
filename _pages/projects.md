@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: /research/
+permalink: /projects/
 description: These are the projects I work on or have worked on during my academic and professional career.
 nav: true
 nav_order: 3
