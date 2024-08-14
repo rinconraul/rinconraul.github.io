@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Overview of my teaching experience
+description: This is an overview of my teaching experience
 nav: true
 nav_order: 4
 ---
@@ -22,8 +22,8 @@ __Full-time Lecturer and Researcher (School of Engineering)__
 
 _Bogotá, Colombia, 2017 – 2020_
 
-* Lectured undergraduate courses and contributed for more active learning environments, promoting student-centered pedagogical strategies and lifelong learning.
-* Guided undergraduate (senior) research projects (required for bachelor’s degree)
+* Lectured undergraduate courses and contributed to implement active learning environments, develop student-centered pedagogical strategies, and promote lifelong learning.
+* Guided 17 undergraduate (senior) research projects (required for bachelor’s degree)
 * Developed course contents, graded course performance, and held regular office hours.
 * Contributed to research projects related to risk analysis on critical infrastructure such as bridges portfolios, buildings, or educative infrastructure to develop action plans for risk mitigation
 * Participated in the Global Program for Safer Schools, funded by the Global Facility for Disaster Reduction and Recovery - GFDRR. 
