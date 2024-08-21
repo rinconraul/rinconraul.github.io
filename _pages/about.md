@@ -30,5 +30,5 @@ I have been awarded with the [Bachiller por Colombia - Mario Galan Gomez](https:
 
 
 <p style="text-align:center">
-    <a href="assets\pdf\fullcv.pdf"> <b> Download full CV </b></a> 
+    <a href="assets\pdf\Raul_Rincon_CV.pdf"> <b> Download full CV </b></a> 
 </p>
