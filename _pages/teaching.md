@@ -9,6 +9,10 @@ nav_order: 4
 
 #### **Rice University** ####
 
+__Guest Lecturer for the CEVE 325 – Structural Analysis Class__ 
+
+_Fall 2024, Houston, TX, USA_
+
 __Co-leading the Resilience Seminar of the Gulf Scholars Program at Rice University (GSP@RICE)__
 
 _Fall 2022, Houston, TX, USA_
