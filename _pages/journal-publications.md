@@ -18,3 +18,7 @@ Check [Google Scholar](https://scholar.google.com/citations?user=ObvaqGYAAAAJ&hl
 {% bibliography %}
 
 </div>
+
+## Journal Articles in Review
+
+**Rincon R**, Padgett JE. (2024). “Bias-based comparison of sub-model fidelity and its compounded effect on infrastructure resilience estimates.” Journal of Engineering Mechanics, In Review, November 2024. **[Special Collection by invitation-only for the EMI 2024 Conference Student Competition Winners and Finalists]** 
