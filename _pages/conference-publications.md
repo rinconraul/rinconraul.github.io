@@ -22,9 +22,12 @@ h2 {
 </style>
 </head>
 
+<h2> 2025 </h2>
+* Rincon R*, Padgett JE, and Duenas-Osorio L. (2025) “Attributed Graphs Preserve User Impacts on Network Performance Computation,” in: 14th International Conference on Structural Safety and Reliability - ICOSSAR25, Los Angeles, CA, USA. URL: [https://www.scipedia.com/public/Rincon_et_al_2025a](https://www.scipedia.com/public/Rincon_et_al_2025a). __[IASSAR 2025 Best Student Paper Award - Infrastructure Analysis group]__.
+* Oh S*, Rincon R, Padgett JE, and Wang Z. (2025) “Collective behaviors in regional seismic responses: insights from phase transitions in statistical physics,” in: 14th International Conference on Structural Safety and Reliability - ICOSSAR25, Los Angeles, CA, USA. URL: [https://www.scipedia.com/public/Oh_et_al_2025a](https://www.scipedia.com/public/Oh_et_al_2025a). 
 <h2> 2024 </h2>
 * Rincon R*, Padgett JE. (2024). “Intelligent learning paradigms to enable adaptable seismic fragility and restoration models.” _18th World Conference on Earthquake Engineering (WCEE 2024)_, Milan, Italy, June 30-July 5, 2024.
-* Rincon R*, Padgett JE. (2024) “Coupling Effects of Fragility Fidelity and Network Resolution in Infrastructure Resilience.” _Engineering Mechanics Institute Conference and Probabilistic Mechanics & Reliability Conference (EMI/PMC2024)_, Chicago, IL, May 28-31, 2024.
+* Rincon R*, Padgett JE. (2024) “Coupling Effects of Fragility Fidelity and Network Resolution in Infrastructure Resilience.” _Engineering Mechanics Institute Conference and Probabilistic Mechanics & Reliability Conference (EMI/PMC2024)_, Chicago, IL, May 28-31, 2024. __[1st Place EMI Objective Resilience Student Paper/Presentation Competition]__
 <h2> 2023 </h2>
 *	Rincon R*, Padgett JE. (2023). “Smart resilience: capturing dynamic, uncertain and evolving lifecycle conditions.” _8th International Symposium on Life-Cycle Civil Engineering (IALCCE 2023)_, Milan, Italy, July 2-6, 2023. In F. Biondini & D.M. Frangopol, Life-Cycle of Structures and Infrastructure Systems (1st ed., pp. 341–348). CRC Press. [https://doi.org/10.1201/9781003323020-39](https://doi.org/10.1201/9781003323020-39).
 *	Rincon R*, Padgett JE. (2022) “Seismic reliability analysis of complex structural systems using system-level surrogate models.” _Proceedings of the 12th National Conference in Earthquake Engineering, Earthquake Engineering Research Institute_, Salt Lake City, UT, June 27-July 1, 2022. [[Link]](https://www.researchgate.net/publication/361670955_Seismic_Reliability_Analysis_of_Complex_Structural_Systems_using_System-_Level_Surrogate_Models).
