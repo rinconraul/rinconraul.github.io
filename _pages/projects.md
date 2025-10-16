@@ -1,13 +1,17 @@
 ---
 layout: page
-title: projects
+title: Research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: These are the projects I work on or have worked on during my academic and professional career.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Smart and Equitable Infrastructure Resilience, Structural Performance and Risk Assessment]
 horizontal: false
 ---
+
+I am developing resilience modeling approaches in multi-scale infrastructure systems that consider smart strategies to analyze low-probability events, compute metrics in multi-scale and heterogeneous systems, and cope with ever-changing conditions (such as aging, deterioration, or technology shifts). I am interested in improving the science of measuring, comparing, and improving infrastructure systems resilience to attain accurate, unbiased, and equitable estimates.
+
+My research interests consist of the following three main themes: 1) to enable continuous learning within the infrastructure resilience modeling approaches, 2) to equip models with autonomous capabilities for efficient data collection and simulation, and 3) to establish a common ground for investigating the inequities in the resilience assessment procedures.
 
 <!-- pages/projects.md -->
 <div class="projects">
