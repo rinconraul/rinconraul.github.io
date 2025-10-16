@@ -10,7 +10,7 @@ profile:
   image_circular: False # crops the image to make it circular
   more_info: >
     <p>Raul Rincon (he/him/his)</p>
-    <p>Postodoctoral Associate </p>
+    <p>Postdoctoral Associate </p>
     <p>Rice University</p>
     <p>Dept. of Civil & Environmental Engineering</p>
     <p> <a href="assets\pdf\Raul_Rincon_CV.pdf"> <b> Download full CV </b></a> </p>

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Raul Rincon was selected as a Future Faculty Fellow from the George R. Brown School of Engineering at Rice University.
+Raul Rincon was selected as a 2024-2025 Future Faculty Fellow by the George R. Brown School of Engineering at Rice University ([see note](https://engineering.rice.edu/news/rice-engineering-announces-fifth-future-faculty-fellows-cohort)).
