@@ -48,6 +48,10 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <div class="news-link">
+      <a href="{{ '/news/' | relative_url }}">See all news →</a>
+    </div>
+
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>

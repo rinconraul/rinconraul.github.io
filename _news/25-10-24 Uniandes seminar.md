@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Raul Rincon gave a presentation on "Smart and Objective Modeling of Structure-to-Infrastructure System Performance" for the joint GEOSI-CIMOC research seminar at Universidad de los Andes, Colombia. 
+Raul Rincon gave a presentation on "Smart and Objective Modeling of Structure-to-Infrastructure System Performance" for the joint [GEOSI](https://geosi.uniandes.edu.co/en/home/)-[CIMOC](https://cimoc.uniandes.edu.co/) research seminar at Universidad de los Andes, Colombia. 
