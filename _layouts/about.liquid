@@ -1,17 +1,74 @@
 ---
 layout: default
 ---
+<style>
+  .rrg-header {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    flex-wrap: wrap;
+  }
+  .rrg-header .rrg-logo {
+    width: 70px;
+    height: auto;
+    flex: 0 0 auto;
+  }
+  .rrg-header .post-title {
+    font-weight: 800;
+    margin: 0;
+    line-height: 1.05;
+  }
+  .rrg-header .rrg-tagline {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    color: var(--global-text-color-light);
+    margin: 0.25rem 0 0;
+  }
+  /* Contact block under the photo: cleaner, more web than textbook serif */
+  .profile .more-info {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--global-text-color-light);
+  }
+  .profile .more-info p {
+    display: block;
+  }
+  .profile .more-info p:first-child {
+    font-weight: 600;
+    font-size: 0.98rem;
+    color: var(--global-text-color);
+  }
+  .profile .more-info a {
+    font-weight: 500;
+  }
+  @media (max-width: 575px) {
+    .rrg-header {
+      justify-content: center;
+      text-align: center;
+    }
+    .rrg-header .rrg-logo {
+      width: 51px;
+    }
+  }
+</style>
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <div class="rrg-header">
+      <img class="rrg-logo" src="{{ '/assets/img/logo_R_blue.png' | relative_url }}" alt="Rincon Research Group logo" />
+      <div class="rrg-titletext">
+        <h1 class="post-title">
+          {% if site.title == 'blank' %}
+            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+            {{ site.last_name }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </h1>
+        <p class="desc rrg-tagline">{{ page.subtitle }}</p>
+      </div>
+    </div>
   </header>
 
   <article>

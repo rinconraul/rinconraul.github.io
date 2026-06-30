@@ -2,18 +2,19 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Rincon Research Group # the website title (if blank, full name will be used instead)
 first_name: Raul
 middle_name: 
 last_name: Rincon
-email: raul.rincon@rice.edu
+email: joseraul.rincongarcia@colorado.edu
 # contact_note: >
   # You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Check here Raul Rincon's academic website.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  &copy; Copyright 2026 Raul Rincon.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+  with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme
 keywords: Raul Rincon, Jose Raul Rincon Garcia, smart resilience, equitable resilience, multiscale models, objective infrastructure modeling # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo_R_blue.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
