@@ -100,10 +100,12 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <hr>
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">Latest News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -120,12 +122,18 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <hr>
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/journal-publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
+
+      <div class="news-link">
+        <a href="{{ '/journal-publications/' | relative_url }}">See all publications →</a>
+      </div>
     {% endif %}
 
     <!-- Social -->

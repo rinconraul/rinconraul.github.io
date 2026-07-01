@@ -198,11 +198,18 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--global-text-color-light);
 
     p {
-      display: inline-block;
+      display: block;
       margin: 0;
+    }
+
+    a {
+      font-weight: 500;
     }
   }
 }

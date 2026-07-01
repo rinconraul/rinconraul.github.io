@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multiscale Infrastructure Systems Modeling
-description: From component behavior to network performance, this research thrust leverages and develops machine-learning-based surrogates, network science tools, and UQ frameworks to accelerate from structural reliability to system lifecycle assessment.
+description: We ask how to make structure-to-network scale reliability, risk, and resilience assessments computationally feasible without sacrificing the realism of the individual submodels involved in the analysis.
 img: assets/img/thrust1.png
 importance: 1
 category: Research Thrusts
@@ -10,22 +10,11 @@ related_publications: false
 
 ### The question
 
-Infrastructure performance emerges across scales: how a component behaves shapes
-how a network performs, yet the two are usually modeled in separate silos, or
-integrated together using high-fidelity models that make the analysis too
-expensive to run at scale.
+Regional risk assessment requires understanding how thousands of individual components and their interactions determine network and community-scale performance. Traditional approaches either simplify components to preserve regional-scale tractability or model them with high fidelity, but cannot scale to a region. Both compromises leave decision-makers without models that are simultaneously reliable at the component level and feasible at the scale planning and policy require.
 
 ### What we do
 
-We develop algorithmic methods that simulate heterogeneous infrastructure from the
-structure to the network scale. For example, we use machine-learning-based
-surrogate models to make expensive structural models tractable and couple them to
-network-level performance. To reduce the computational burden of integrated
-models, we investigate computational methods that trade off efficiency and
-accuracy by identifying which interactions most influence system outcomes, and we
-propose objective methods for such assessments. We also study smart-modeling
-techniques that enable ML/AI-based models to autonomously improve their predictive
-capabilities, accelerating model training in risk and resilience contexts.
+We develop and apply methods for regional-scale risk analysis that couple component behavior to portfolio and network performance without collapsing the granularity that regional decisions depend on. We use machine-learning-based surrogates to make expensive structural models computationally tractable at scale, we propose Monte Carlo acceleration methods for networked systems analyses, and we develop AI-based data collection and inference methods to accelerate model learning and information gathering where field or computational data is sparse or expensive. The result is regional reliability, risk, and resilience assessments that are both computationally feasible and grounded in realistic component-level behavior.
 
 ### Publications
 

@@ -20,13 +20,15 @@ whom decisions are made.
 
 ### What we do
 
-We quantify the uncertainty that arises from the modeling process itself, not only
-from model inputs. Using statistical-distance frameworks and bias-quantification
-methods, we measure how modeling choices interact and compound, and we study how
-the resulting outcome shifts reach distinct communities. The goal is
-model-selection guidance that trades model efficiency against bias and against the
-social cost of decisions made on biased estimates, making the science of measuring
-resilience more objective, equitable, and fit-for-purpose.
+We investigate computational methods to propagate input uncertainties across scales. Ranging from analytical to machine-learning-based
+approaches, we explore ways to accelerate UQ for 
+different quantities of interest.
+We also quantify the uncertainty arising from the modeling process itself, not only from model inputs, by studying how modeling choices interact and compound. We are interested in understanding how the resulting outcome shifts reach distinct communities. We develop decision-theoretic frameworks that translate
+this uncertainty, including the uncertainty introduced by our own modeling
+choices, into concrete model-selection guidance. The goal is guidance that trades model efficiency
+against the risk of prediction error, or against the social cost of decisions made
+on incorrect estimates, making the science of measuring resilience more
+objective, equitable, and fit-for-purpose.
 
 ### Publications
 

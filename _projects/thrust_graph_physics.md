@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Dynamic Socio-Infrastructure Systems"
-description: How users, physical networks, and environmental stressors interact and evolve. These interactions and their hidden relationships shape long-term resilience and sustainability.
+title: "Dynamic User-Physical Infrastructure Systems"
+description: How users, owners, physical networks, and environmental stressors interact and evolve. These interactions and their hidden relationships shape long-term resilience and sustainability.
 img: assets/img/thrust3.png
 importance: 3
 category: Research Thrusts
@@ -10,7 +10,7 @@ related_publications: false
 
 ### The question
 
-Infrastructure is not only a physical network; it is a socio-infrastructure system
+Infrastructure is not only a physical network; it is a socio-physical infrastructure system
 whose behavior emerges from the interplay of users, infrastructure owners,
 components, and environmental stressors over time. Static, purely physical models
 miss the hidden, dynamic relationships. We want to understand how user behavior,

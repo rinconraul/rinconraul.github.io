@@ -14,7 +14,7 @@ profiles:
     more_info: >
       <p>Assistant Professor (incoming, Fall 2026)</p>
       <p>CEAE &middot; University of Colorado Boulder</p>
-      <p><a href="/cv/">Full CV &rarr;</a></p>
+      <p><a href="/cv/"><b>View full CV</b></a></p>
   - align: left
     content: open_positions.md
 ---
