@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "dropdown-journal-articles",
+  },{id: "nav-research",
+          title: "Research",
+          description: "Computational and probabilistic methods for resilient, adaptive, and equitable infrastructure systems.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "dropdown-journal-articles",
               title: "Journal Articles",
               description: "",
               section: "Dropdown",
@@ -30,43 +37,28 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/dataset-publications/";
               },
-            },{id: "nav-research",
-          title: "Research",
-          description: "These are the projects I work on or have worked on during my academic and professional career.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-teaching",
+            },{id: "nav-teaching",
           title: "Teaching",
-          description: "This is an overview of my teaching experience",
+          description: "Teaching philosophy and experience",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        },{id: "nav-people",
+          title: "People",
+          description: "The Rincon Research Group at CU Boulder",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
+        },{id: "nav-join",
+          title: "Join",
+          description: "Prospective students and collaborators",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/join/";
+          },
+        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -75,226 +67,6 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
@@ -308,121 +80,20 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-raul-rincon-gave-a-presentation-at-the-engineering-mechanics-institute-conference-and-probabilistic-mechanics-amp-amp-reliability-conference-emi-2024-in-chicago-il-he-was-awarded-the-1st-place-emi-objective-resilience-student-paper-presentation-competition",
+      },{id: "news-raul-rincon-gave-a-presentation-at-the-engineering-mechanics-institute-conference-and-probabilistic-mechanics-amp-amp-reliability-conference-emi-2024-in-chicago-il-he-was-awarded-the-1st-place-emi-objective-resilience-student-paper-presentation-competition",
           title: 'Raul Rincon gave a presentation at the Engineering Mechanics Institute Conference and Probabilistic...',
           description: "",
           section: "News",},{id: "news-raul-rincon-was-selected-as-a-2024-2025-future-faculty-fellow-by-the-george-r-brown-school-of-engineering-at-rice-university-see-note",
           title: 'Raul Rincon was selected as a 2024-2025 Future Faculty Fellow by the George...',
           description: "",
-          section: "News",},{id: "news-raul-rincon-accepted-a-tenure-track-faculty-position-at-the-university-of-colorado-boulder-cu-boulder-in-the-civil-environmental-and-architectural-engineering-department-the-position-starts-in-fall-2026-see-note-by-rice-university",
+          section: "News",},{id: "news-raul-rincon-accepted-a-tenure-track-faculty-position-at-the-university-of-colorado-boulder-in-the-civil-environmental-and-architectural-engineering-department-he-will-join-as-assistant-professor-in-fall-2026-see-note-by-rice-university",
           title: 'Raul Rincon accepted a tenure-track faculty position at the University of Colorado Boulder...',
           description: "",
           section: "News",},{id: "news-raul-rincon-gave-a-presentation-at-the-14th-international-conference-on-structural-safety-and-reliability-icossar-25-in-los-angeles-ca-he-was-selected-as-one-of-the-iassar-best-student-paper-award-infrastructure-group",
           title: 'Raul Rincon gave a presentation at the 14th International Conference on Structural Safety...',
+          description: "",
+          section: "News",},{id: "news-a-collaborative-paper-published-in-the-journal-structural-engineering-international-was-awarded-the-outstanding-paper-award-category-scientific-paper-see-the-press-release",
+          title: 'A collaborative paper published in the Journal Structural Engineering International was awarded the...',
           description: "",
           section: "News",},{id: "news-raul-rincon-defended-his-ph-d-thesis-smart-and-objective-modeling-of-structure-to-infrastructure-system-performance",
           title: 'Raul Rincon defended his Ph.D. thesis, “Smart and Objective Modeling of Structure-to-Infrastructure System...',
@@ -436,52 +107,19 @@ ninja.data = [{
           section: "News",},{id: "news-raul-rincon-was-invited-to-present-at-the-2026-nheri-gsc-march-general-meeting-his-presentation-titled-examining-infrastructure-failures-in-socio-physical-systems-using-attributed-graph-models-is-available-on-the-nheri-gsc-youtube-channel",
           title: 'Raul Rincon was invited to present at the 2026 NHERI GSC March General...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "projects-adaptive-and-flexible-models",
+          section: "News",},{id: "news-raul-rincon-was-awarded-the-ralph-budd-ph-d-engineering-thesis-award-this-award-is-given-for-the-best-written-thesis-in-the-george-r-brown-school-of-engineering-and-computing-at-rice-university",
+          title: 'Raul Rincon was awarded the Ralph Budd Ph.D. Engineering Thesis Award. This award...',
+          description: "",
+          section: "News",},{id: "news-raul-rincon-has-been-appointed-as-a-full-member-of-the-engineering-mechanics-institute-emi-objective-resilience-committee-orc",
+          title: 'Raul Rincon has been appointed as a full member of the Engineering Mechanics...',
+          description: "",
+          section: "News",},{id: "news-raul-rincon-presented-at-the-2026-nheri-simcenter-computational-symposium-at-uc-berkeley",
+          title: 'Raul Rincon presented at the 2026 NHERI SimCenter Computational Symposium at UC Berkeley....',
+          description: "",
+          section: "News",},{id: "news-raul-rincon-presented-ongoing-research-with-jamie-padgett-and-mauricio-sanchez-silva-at-the-engineering-mechanics-institute-conference-emi-2026-at-cu-boulder",
+          title: 'Raul Rincon presented ongoing research with Jamie Padgett and Mauricio Sanchez-Silva at the...',
+          description: "",
+          section: "News",},{id: "projects-adaptive-and-flexible-models",
           title: 'Adaptive and flexible models',
           description: "through AI and statistical tools",
           section: "Projects",handler: () => {
@@ -506,6 +144,21 @@ ninja.data = [{
           description: "Component and structure-level analyses",
           section: "Projects",handler: () => {
               window.location.href = "/projects/structural_vulnerability/";
+            },},{id: "projects-uncertainty-quantification-and-uncertainties-in-the-modeling-process",
+          title: 'Uncertainty Quantification and Uncertainties in the Modeling Process',
+          description: "Quantifying not just parameter uncertainty but the hidden uncertainty of modeling choices, and how it compounds across scales and communities.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/thrust_equitable_metrics/";
+            },},{id: "projects-dynamic-socio-infrastructure-systems",
+          title: 'Dynamic Socio-Infrastructure Systems',
+          description: "How users, physical networks, and environmental stressors interact and evolve. These interactions and their hidden relationships shape long-term resilience and sustainability.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/thrust_graph_physics/";
+            },},{id: "projects-multiscale-infrastructure-systems-modeling",
+          title: 'Multiscale Infrastructure Systems Modeling',
+          description: "From component behavior to network performance, this research thrust leverages and develops machine-learning-based surrogates, network science tools, and UQ frameworks to accelerate from structural reliability to system lifecycle assessment.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/thrust_multiscale_smart/";
             },},{id: "projects-equitable-resilience-modeling",
           title: 'Equitable resilience modeling',
           description: "uncovering and mitigating bias",
@@ -516,7 +169,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%72%61%75%6C.%72%69%6E%63%6F%6E@%72%69%63%65.%65%64%75", "_blank");
+          window.open("mailto:%72%61%75%6C.%72%69%6E%63%6F%6E@%63%6F%6C%6F%72%61%64%6F.%65%64%75", "_blank");
         },
       },{
         id: 'social-github',
@@ -553,30 +206,4 @@ ninja.data = [{
         handler: () => {
           window.open("https://scholar.google.com/citations?user=ObvaqGYAAAAJ&hl=en", "_blank");
         },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+      },];
