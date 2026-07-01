@@ -69,7 +69,7 @@ hear from you in the meantime.
 Please send an email to **raul.rincon@colorado.edu** with:
 
 - A short paragraph describing your background and what specifically drew you to
-  this research;
+  this research
 - Your CV or resume
 - Any writing samples, thesis drafts, or publications you would like to share
 

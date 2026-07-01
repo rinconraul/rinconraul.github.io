@@ -13,8 +13,8 @@ profile:
     <p>Assistant Professor (starting Fall 2026)</p>
     <p>CEAE · University of Colorado Boulder</p>
     <p>
-      <a href="assets/pdf/Raul_Rincon_CV.pdf">
-        <b>Download full CV</b>
+      <a href="/cv/">
+        <b>View full CV</b>
       </a>
     </p>
 
