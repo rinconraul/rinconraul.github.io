@@ -2,80 +2,72 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: This is an overview of my teaching experience
+description: Teaching philosophy and experience
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
-#### **Rice University** ####
+Teaching goes beyond what occurs within the constraints of a given space — the
+classroom, the lab, the group meeting — and takes place on longer timeframes than
+the shared time of a course. My approach is built on three commitments: helping
+students **take charge of their learning process**, developing **professional
+skills** that travel beyond the course content, and cultivating **academic rigor
+alongside a sense of social responsibility**.
 
-__Co-instructor for the CEVE 562 course – Infrastructure Resilience to Multiple Hazards__ 
+In practice, this means designing curricula where objectives, activities, and
+outcomes are explicitly aligned; using active learning strategies that put students
+at the center; and creating space in classes, group meetings, and one-on-one
+mentoring where students can propose new ideas, challenge existing ones, and
+develop as researchers and as people.
 
-_Fall 2025, Houston, TX, USA_
+---
 
-__Guest Lecturer for the CEVE 325 course – Structural Analysis Class__ 
+## University of Colorado Boulder
 
-_Fall 2024, Houston, TX, USA_
+**Assistant Professor, CEAE** · Starting Fall 2026
 
-__Co-leading the Resilience Seminar of the Gulf Scholars Program at Rice University (GSP@RICE)__
+---
 
-_Fall 2022, Houston, TX, USA_
+## Rice University
 
-* Developed the syllabus and co-organized the seminar sessions, co-curricular activities, and assignments for the seminar for the cohort ‘22.
-* Co-lead the seminar sessions and engaged the students to find their future pathways extensions in the GSP@RICE and as change agents.
+**Co-instructor** — CEVE 562: Infrastructure Resilience to Multiple Hazards
+_Fall 2025, Houston, TX_
 
-#### **Universidad de los Andes** ####
+**Guest Lecturer** — CEVE 325: Structural Analysis
+_Fall 2024, Houston, TX_
 
-__Full-time Lecturer and Researcher (School of Engineering)__
+**Co-leader** — Resilience Seminar, Gulf Scholars Program at Rice (GSP@RICE)
+_Fall 2022, Houston, TX_
 
-_Bogotá, Colombia, 2017 – 2020_
+Developed the syllabus and co-organized seminar sessions, co-curricular activities,
+and assignments for the cohort's resilience seminar. Engaged students in finding
+future pathways and acting as change agents in their communities.
 
-* Lectured undergraduate courses and contributed to implement active learning environments, develop student-centered pedagogical strategies, and promote lifelong learning.
-* Guided 17 undergraduate (senior) research projects (required for bachelor’s degree)
-* Developed course contents, graded course performance, and held regular office hours.
-* Contributed to research projects related to risk analysis on critical infrastructure such as bridges portfolios, buildings, or educative infrastructure to develop action plans for risk mitigation
-* Participated in the Global Program for Safer Schools, funded by the Global Facility for Disaster Reduction and Recovery - GFDRR. 
-* Motivated and investigated the implementation of innovative pedagogical strategies for student-centered learning approaches and the active engagement of the students.	
+---
 
-**Undergraduate courses**
+## Universidad de los Andes
+
+**Full-time Lecturer and Researcher** · School of Engineering
+_Bogotá, Colombia, 2017–2020_
+
+Taught undergraduate courses across the structural engineering curriculum while
+contributing to pedagogical innovation and research. Guided **17 undergraduate
+senior research projects** and contributed to national-scale seismic risk projects
+for schools, bridges, and critical infrastructure in partnership with the Global
+Facility for Disaster Reduction and Recovery (GFDRR).
+
+Received the **Innovative Teacher Recognition (2019)** for implementing
+student-centered strategies and contributing to active learning reform.
+
 <style>
-table th:first-of-type {
-    width: 25%;
-}
-table th:nth-of-type(2) {
-    width: 55%;
-}
-table th:nth-of-type(3) {
-    width: 20%;
-}
-
+table th:first-of-type { width: 25%; }
+table th:nth-of-type(2) { width: 55%; }
+table th:nth-of-type(3) { width: 20%; }
 </style>
 
-<table>
-  <tr>
-    <th>Course</th>
-    <th>Contributions</th>
-    <th>Period</th>
-  </tr>
-  <tr>
-    <td>Structural Design</td>
-    <td>Led a total course re-organization by updating lectures and exams format focused on student-centered approaches. Collaborated in the development of a “Teaching notes book.”   </td>
-    <td>Aug. 2019 – Jul. 2020</td>
-  </tr>
-  <tr>
-    <td>Mechanics of Materials</td>
-    <td>Updated and developed training material to improve students understanding.   </td>
-    <td>Jan. 2018 – Jul. 2020</td>
-  </tr>
-  <tr>
-    <td>Structural Analysis</td>
-    <td>Contributed to the development of the TARSIS platform, an online resource for student assignments that uses the students’ errors as a tool for self-learning.   </td>
-    <td>Aug. 2017 – Jul. 2020</td>
-  </tr>
-  <tr>
-    <td>Statics</td>
-    <td>Implemented flipped classroom methodologies as a tool for better understanding supported by the university’s group for pedagogical innovation.   </td>
-    <td>Aug. 2017 – Aug. 2019</td>
-  </tr>
-</table>
-
+| Course | Contributions | Period |
+|--------|--------------|--------|
+| Structural Design | Led full course reorganization around student-centered approaches; co-developed a Teaching Notes book | Aug 2019 – Jul 2020 |
+| Mechanics of Materials | Updated and developed training material to improve conceptual understanding | Jan 2018 – Jul 2020 |
+| Structural Analysis | Contributed to the [TARSIS platform](https://doi.org/10.14742/ajet.5865) — an online system using students' errors as a self-learning tool | Aug 2017 – Jul 2020 |
+| Statics | Led implementation of [flipped classroom methodology](https://ediciones.uniandes.edu.co/); published as a book chapter case study | Aug 2017 – Aug 2019, Spring 2026 |
