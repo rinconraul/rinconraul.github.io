@@ -1,39 +1,34 @@
 ---
 layout: page
-title: Multiscale Simulation & Smart Resilience
-description: ML surrogates coupled with network models so infrastructure can learn and adapt over its lifecycle
-img: assets/img/project1/smart_concept.jpg
+title: Multiscale Infrastructure Systems Modeling
+description: From component behavior to network performance, this research thrust leverages and develops machine-learning-based surrogates, network science tools, and UQ frameworks to accelerate from structural reliability to system lifecycle assessment.
+img: assets/img/thrust1.png
 importance: 1
 category: Research Thrusts
-related_publications: true
+related_publications: false
 ---
-
-<!-- PLACEHOLDER CONTENT — provisional thrust framing, to be refined in Phase 2. -->
 
 ### The question
 
-Standard resilience models treat infrastructure as static and treat scales as
-separable. Real systems age, deteriorate, and are operated under changing
-conditions, and the decisions that matter most often depend on how
-component-level behavior propagates to network outcomes.
+Infrastructure performance emerges across scales: how a component behaves shapes
+how a network performs, yet the two are usually modeled in separate silos, or
+integrated together using high-fidelity models that make the analysis too
+expensive to run at scale.
 
-### What we are doing
+### What we do
 
-We develop algorithmic methods for multiscale simulation of heterogeneous
-infrastructure systems, coupling machine-learning surrogates for expensive
-structural models with network-level performance metrics. A central thread is
-*smart resilience*: linking recursive Bayesian updating, lifecycle analysis, and
-active learning to steer post-event data collection. We have posed active-learning
-approaches that account for the cost, or risk, of correct and incorrect model
-predictions when selecting structures to inspect after a seismic event, enabling
-timely and risk-aware decisions.
+We develop algorithmic methods that simulate heterogeneous infrastructure from the
+structure to the network scale. For example, we use machine-learning-based
+surrogate models to make expensive structural models tractable and couple them to
+network-level performance. To reduce the computational burden of integrated
+models, we investigate computational methods that trade off efficiency and
+accuracy by identifying which interactions most influence system outcomes, and we
+propose objective methods for such assessments. We also study smart-modeling
+techniques that enable ML/AI-based models to autonomously improve their predictive
+capabilities, accelerating model training in risk and resilience contexts.
 
-### Methods
+### Publications
 
-Machine-learning surrogates · Gaussian-process / kriging models · Bayesian
-updating · lifecycle performance analysis · active learning · system reliability
-with multiple failure modes.
-
-### Related publications
-
-{% cite rincon_fragility_2024 padgett_future_2024 rincon2023smart %}
+<div class="publications">
+{% bibliography --query @*[keywords ~= multiscale] %}
+</div>

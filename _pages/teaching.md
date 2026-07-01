@@ -26,18 +26,6 @@ develop as researchers and as people.
 
 **Assistant Professor, CEAE** · Starting Fall 2026
 
-I am developing two new graduate courses for CU Boulder:
-
-**Adaptive Socio-Infrastructure Systems under Stressors**
-Statistical models, data analysis, recursive Bayesian updating, network science,
-and surrogate modeling for infrastructure exposed to uncertain, heterogeneous, and
-evolving conditions.
-
-**Lifecycle of Dynamic Infrastructure Systems**
-Time-dependent system reliability, computational algorithms, sequential
-decision-making, and decision-making under deep uncertainty across varying
-timescales and long-term policies.
-
 ---
 
 ## Rice University
@@ -82,4 +70,4 @@ table th:nth-of-type(3) { width: 20%; }
 | Structural Design | Led full course reorganization around student-centered approaches; co-developed a Teaching Notes book | Aug 2019 – Jul 2020 |
 | Mechanics of Materials | Updated and developed training material to improve conceptual understanding | Jan 2018 – Jul 2020 |
 | Structural Analysis | Contributed to the [TARSIS platform](https://doi.org/10.14742/ajet.5865) — an online system using students' errors as a self-learning tool | Aug 2017 – Jul 2020 |
-| Statics | Led implementation of [flipped classroom methodology](https://ediciones.uniandes.edu.co/); published as a book chapter case study | Aug 2017 – Aug 2019 |
+| Statics | Led implementation of [flipped classroom methodology](https://ediciones.uniandes.edu.co/); published as a book chapter case study | Aug 2017 – Aug 2019, Spring 2026 |

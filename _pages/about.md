@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: resilient, adaptive, and equitable infrastructure systems
+subtitle: Resilient, Adaptive, and Equitable Infrastructure Systems
 
 profile:
   align: right
@@ -48,9 +48,9 @@ modeling choices, shape the decisions built on them, and how to manage that
 uncertainty in the development process, for example, through decision-theoretic
 frameworks.
 
-I am looking for enthusiastic students and collaborators who want to build
-computational and analytical methods that capture how societies, infrastructure,
-and environmental stressors interact across scales. If that sounds like you,
-visit the [Join](/join/) page to learn more.
+Currently, I am looking for enthusiastic students and collaborators who want to
+build computational and analytical methods that capture how societies,
+infrastructure, and environmental stressors interact across scales. If that
+sounds like you, visit the [Join](/join/) page to learn more.
 
 For more on my background and path into this work, see the [full bio →](/bio/).

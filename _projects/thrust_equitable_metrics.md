@@ -1,38 +1,35 @@
 ---
 layout: page
-title: Objective & Equitable Resilience Metrics
-description: Statistical frameworks that expose how modeling choices bias whose resilience we measure accurately
-img: assets/img/project1/equit_concept.jpg
+title: "Uncertainty Quantification and Uncertainties in the Modeling Process"
+description: Quantifying not just parameter uncertainty but the hidden uncertainty of modeling choices, and how it compounds across scales and communities.
+img: assets/img/thrust2.png
 importance: 2
 category: Research Thrusts
-related_publications: true
+related_publications: false
 ---
-
-<!-- PLACEHOLDER CONTENT — provisional thrust framing, to be refined in Phase 2. -->
 
 ### The question
 
-How we measure resilience determines whose resilience we measure accurately, and
-whose we do not. Sub-model fidelity and network resolution interact and compound
-across scales, affecting the populations for which decisions are made.
+Multiscale resilience analysis stitches together sub-models for hazard,
+deterioration, performance, and consequences. Beyond the usual parameter
+uncertainty, the choices among those sub-models (for example, selecting their
+fidelity or the quantity of interest) introduce a subjectivity that is rarely
+quantified. This modeling uncertainty compounds across scales, can overshadow
+careful sub-model refinement, and shifts outcomes for the very populations for
+whom decisions are made.
 
-### What we are doing
+### What we do
 
-We develop statistical-distance frameworks and bias-quantification algorithms
-that expose how these effects compound across scales. A parallel thread
-investigates the relationship between algorithmic bias in spatially distributed
-models and equity in decision-making, asking how the data we collect, the models
-we choose, and the metrics we optimize affect distinct communities differently.
+We quantify the uncertainty that arises from the modeling process itself, not only
+from model inputs. Using statistical-distance frameworks and bias-quantification
+methods, we measure how modeling choices interact and compound, and we study how
+the resulting outcome shifts reach distinct communities. The goal is
+model-selection guidance that trades model efficiency against bias and against the
+social cost of decisions made on biased estimates, making the science of measuring
+resilience more objective, equitable, and fit-for-purpose.
 
-### Methods
+### Publications
 
-Statistical-distance metrics (Wasserstein distance) · bias quantification ·
-variance-based sensitivity analysis · Bayesian statistics · network performance
-modeling · equity analysis.
-
-### Related publications
-
-{% cite padgett_future_2024 rincon_fragility_2024 %}
-
-A bias-quantification manuscript (Rincon & Padgett, *Reliability Engineering and
-System Safety*) is currently in review.
+<div class="publications">
+{% bibliography --query @*[keywords ~= uncertainty] %}
+</div>

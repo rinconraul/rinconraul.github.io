@@ -10,41 +10,51 @@ nav_order: 1
 horizontal: false
 ---
 
-<!-- PLACEHOLDER FRAMING — the three thrusts below are provisional starting points
-     and will be refined in Phase 2 (see notes from the redesign session). -->
+<!-- Thrust names below are still provisional (see redesign notes). Each thrust
+     links to a lean, evergreen detail page; its publications auto-populate from
+     the .bib by keyword tag, so nothing here needs manual updating. -->
+
+<style>
+  /* Larger, unshaded thrust figures on the Research page */
+  @media (min-width: 576px) {
+    .post .profile {
+      width: 42%;
+    }
+  }
+</style>
 
 Infrastructure systems are complex, multiscale, and adaptive. Their components
 aggregate nonlinearly into network-level outcomes, they operate under evolving
 hazard and societal conditions, and they are embedded in communities whose
 existing inequities can be amplified or mitigated by the engineering decisions
-made around them. The Rincon Research Group develops the methods and models
-needed to assess, design, and monitor the resilience of civil infrastructure
-systems in ways that are accurate, computationally efficient, and equitable.
+made around them. The Rincon Research Group investigates computational algorithms,
+statistical tools, probabilistic frameworks, and decision-theoretic approaches for
+modeling, designing, and monitoring civil infrastructure systems exposed to
+natural hazards and deterioration, and, as a future direction, to climate
+stressors, with a commitment to making those tools accurate, transparent, and
+equitable.
 
-The work is organized around three interconnected research thrusts. **Click any
-thrust to read what we are doing and the publications behind it.**
+Our work spans structural reliability and risk modeling, infrastructure network
+analysis, machine learning applied to natural hazards and infrastructure-engineering
+contexts, graph-theoretic representations of socio-infrastructure systems,
+uncertainty quantification, and the relationship between modeling choices and
+social outcomes.
 
-<div class="projects">
-  <div class="row row-cols-1 row-cols-md-3">
-    {% assign thrusts = site.projects | where: "category", "Research Thrusts" | sort: "importance" %}
-    {% for project in thrusts %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
+The work is organized around three interconnected research thrusts.
+
+{% assign thrusts = site.projects | where: "category", "Research Thrusts" | sort: "importance" %}
+{% for thrust in thrusts %}
+<hr>
+<div class="profile float-{% cycle 'right', 'left' %}">
+  {% include figure.liquid loading="eager" path=thrust.img class="img-fluid rounded" alt=thrust.title %}
 </div>
+<div class="clearfix">
+  <h3><a href="{{ thrust.url | relative_url }}" style="color: inherit;">{{ thrust.title }}</a></h3>
+  <p>{{ thrust.description }}</p>
+  <p><a href="{{ thrust.url | relative_url }}">See more details and references &rarr;</a></p>
+</div>
+{% endfor %}
 
----
+<hr>
 
-### Future directions and funding
-
-The near-term agenda pursues three goals: (1) prospective infrastructure analyses
-leveraging digital-twin concepts, continual model learning, and autonomous data
-collection; (2) methods for uncovering and mitigating bias in the modeling
-pipeline, connecting model-fidelity choices to their social costs; and (3)
-agent-based and network-science approaches for understanding hidden relationships
-across infrastructure lifecycles. Target funding includes NSF's Civil
-Infrastructure Systems, Mathematical Foundations of Digital Twins, and Engineering
-Design and Systems Engineering programs, as well as the U.S. Departments of
-Transportation and Energy.
-
-→ Interested in joining the group or collaborating? Visit the [Join](/join/) page.
+Interested in joining the group or collaborating? Visit the [Join](/join/) page.
