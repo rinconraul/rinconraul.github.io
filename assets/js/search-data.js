@@ -149,14 +149,14 @@ ninja.data = [{
           description: "Quantifying not just parameter uncertainty but the hidden uncertainty of modeling choices, and how it compounds across scales and communities.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/thrust_equitable_metrics/";
-            },},{id: "projects-dynamic-socio-infrastructure-systems",
-          title: 'Dynamic Socio-Infrastructure Systems',
-          description: "How users, physical networks, and environmental stressors interact and evolve. These interactions and their hidden relationships shape long-term resilience and sustainability.",
+            },},{id: "projects-dynamic-user-physical-infrastructure-systems",
+          title: 'Dynamic User-Physical Infrastructure Systems',
+          description: "How users, owners, physical networks, and environmental stressors interact and evolve. These interactions and their hidden relationships shape long-term resilience and sustainability.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/thrust_graph_physics/";
             },},{id: "projects-multiscale-infrastructure-systems-modeling",
           title: 'Multiscale Infrastructure Systems Modeling',
-          description: "From component behavior to network performance, this research thrust leverages and develops machine-learning-based surrogates, network science tools, and UQ frameworks to accelerate from structural reliability to system lifecycle assessment.",
+          description: "We ask how to make structure-to-network scale reliability, risk, and resilience assessments computationally feasible without sacrificing the realism of the individual submodels involved in the analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/thrust_multiscale_smart/";
             },},{id: "projects-equitable-resilience-modeling",
