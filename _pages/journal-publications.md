@@ -19,10 +19,26 @@ the most up-to-date list.
 
 ---
 
+{% capture accepted_pubs %}{% bibliography --query @unpublished[status=accepted] %}{% endcapture %}
+{% assign accepted_stripped = accepted_pubs | strip %}
+{% if accepted_stripped != "" %}
+
+## Journal Articles Accepted
+
+<div class="publications">
+
+{% bibliography --query @unpublished[status=accepted] %}
+
+</div>
+
+---
+
+{% endif %}
+
 ## Journal Articles in Review
 
 <div class="publications">
 
-{% bibliography --query @unpublished %}
+{% bibliography --query @unpublished[status=inreview] %}
 
 </div>
