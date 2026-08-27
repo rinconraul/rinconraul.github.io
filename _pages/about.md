@@ -34,7 +34,7 @@ latest_posts:
 
 I am building the **Rincon Research Group** at the **University of Colorado
 Boulder**, joining the Department of Civil, Environmental, and Architectural
-Engineering as an Assistant Professor in Fall 2026. The group develops
+Engineering as an Assistant Professor in Spring 2027. The group develops
 computational and probabilistic methods for **resilient, adaptive, and equitable
 infrastructure systems**, so that urban infrastructure performs safely and fairly
 now and into the future.
