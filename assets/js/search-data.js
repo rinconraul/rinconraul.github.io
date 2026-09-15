@@ -95,7 +95,7 @@ ninja.data = [{
           section: "News",},{id: "news-a-collaborative-paper-published-in-the-journal-structural-engineering-international-was-awarded-the-outstanding-paper-award-category-scientific-paper-see-the-press-release",
           title: 'A collaborative paper published in the Journal Structural Engineering International was awarded the...',
           description: "",
-          section: "News",},{id: "news-raul-rincon-defended-his-ph-d-thesis-smart-and-objective-modeling-of-structure-to-infrastructure-system-performance",
+          section: "News",},{id: "news-raul-rincon-defended-his-ph-d-thesis-smart-and-objective-modeling-of-structure-to-infrastructure-system-performance-the-thesis-document-can-be-accessed-here-if-you-have-any-questions-or-want-to-explore-ideas-for-collaboration-contact-me",
           title: 'Raul Rincon defended his Ph.D. thesis, “Smart and Objective Modeling of Structure-to-Infrastructure System...',
           description: "",
           section: "News",},{id: "news-raul-rincon-gave-a-presentation-on-smart-and-objective-modeling-of-structure-to-infrastructure-system-performance-for-the-joint-geosi-cimoc-research-seminar-at-universidad-de-los-andes-colombia",
