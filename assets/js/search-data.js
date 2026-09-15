@@ -30,6 +30,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/conference-publications/";
               },
+            },{id: "dropdown-books-and-technical-reports",
+              title: "Books and Technical Reports",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/books-technical-reports/";
+              },
             },{id: "dropdown-datasets",
               title: "Datasets",
               description: "",
