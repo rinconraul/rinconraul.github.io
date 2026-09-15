@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>Raul Rincon (he/him/his)</p>
-    <p>Assistant Professor (starting Fall 2026)</p>
+    <p>Incoming Assistant Professor</p>
     <p>CEAE · University of Colorado Boulder</p>
     <p>
       <a href="/cv/">

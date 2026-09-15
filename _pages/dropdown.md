@@ -11,7 +11,11 @@ children:
   - title: Conference Articles
     permalink: /conference-publications/
   - title: divider
+  - title: Books and Technical Reports
+    permalink: /books-technical-reports/
+  - title: divider
   - title: Datasets
     permalink: /dataset-publications/
+
 ---
 

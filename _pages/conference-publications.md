@@ -23,7 +23,7 @@ h2 {
 </head>
 
 <h2> 2026 </h2>
-* Rincon R*, Padgett JE, Dueñas-Osorio L. (2026) “Attributed-graph metrics reveal unequal earthquake impacts on users of infrastructure networks,” Proceedings of the 13th National Conference in Earthquake Engineering, Earthquake Engineering Research Institute, Portland, OR.
+* Rincon R*, Padgett JE, Dueñas-Osorio L. (2026) “Attributed-graph metrics reveal unequal earthquake impacts on users of infrastructure networks,” Proceedings of the 13th National Conference in Earthquake Engineering, Earthquake Engineering Research Institute, Portland, OR.[Link](https://www.researchgate.net/publication/410745612_Attributed-Graph_Metrics_Reveal_Unequal_Earthquake_Impacts_on_Users_of_Infrastructure_Networks)
 <h2> 2025 </h2>
 * Rincon R*, Padgett JE, and Duenas-Osorio L. (2025) “Attributed Graphs Preserve User Impacts on Network Performance Computation,” in: 14th International Conference on Structural Safety and Reliability - ICOSSAR25, Los Angeles, CA, USA. URL: [https://www.scipedia.com/public/Rincon_et_al_2025a](https://www.scipedia.com/public/Rincon_et_al_2025a). __[IASSAR 2025 Best Student Paper Award - Infrastructure Analysis group]__.
 * Oh S*, Rincon R, Padgett JE, and Wang Z. (2025) “Collective behaviors in regional seismic responses: insights from phase transitions in statistical physics,” in: 14th International Conference on Structural Safety and Reliability - ICOSSAR25, Los Angeles, CA, USA. URL: [https://www.scipedia.com/public/Oh_et_al_2025a](https://www.scipedia.com/public/Oh_et_al_2025a). 

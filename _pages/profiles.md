@@ -12,7 +12,7 @@ profiles:
     image_circular: false
     content: prof_rincon.md
     more_info: >
-      <p>Assistant Professor (incoming, Fall 2026)</p>
+      <p>Incoming Assistant Professor</p>
       <p>CEAE &middot; University of Colorado Boulder</p>
       <p><a href="/cv/"><b>View full CV</b></a></p>
   - align: left
