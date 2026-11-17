@@ -2,55 +2,51 @@
 layout: about
 title: About
 permalink: /
-subtitle: Resilient, Adaptive, and Equitable Infrastructure Systems
 
-profile:
-  align: right
-  image: raul-rincon.jpg
-  image_circular: false
-  more_info: >
-    <p>Raul Rincon (he/him/his)</p>
-    <p>Incoming Assistant Professor</p>
-    <p>CEAE · University of Colorado Boulder</p>
-    <p>
-      <a href="/cv/">
-        <b>View full CV</b>
-      </a>
-    </p>
+# Research banner tagline; the `tagline_emphasis` part is shown in bold coffee.
+subtitle: From Uncertain Data and Models to Adaptive Socio-Physical Infrastructure Systems
+tagline_emphasis: Adaptive Socio-Physical
 
-selected_papers: true
-social: true
+# Line with the gold rule under the welcome heading (HTML allowed).
+statement: >
+  We study infrastructure as a <em>socio-physical system</em>: its behavior emerges from the
+  interplay of users, infrastructure owners, components, and environmental stressors over time.
 
+# Panels under the welcome. Use `text` for a paragraph or `items` for a list.
+pillars:
+  - title: Our vision
+    text: >
+      Resilience is often treated as a single sequence: a hazard strikes, the system responds,
+      and the community recovers. We take a systemic view instead. Societies, infrastructure,
+      and the environment shape one another continuously, and safe, thriving communities depend
+      on understanding those interactions as a whole.
+  - title: What we aim for
+    items:
+      - Modeling socio-physical infrastructure as multiscale systems to understand interactions that determine network and community-scale performance.
+      - Informing decision-making to improve infrastructure resilience, while mitigating the effects of uncertainty our own modeling choices introduce.
+      - Adaptive infrastructure modeling and management that accounts for how users, physical systems, and stressors change together over a system's lifetime.
+
+# News on the homepage: the newest `limit` items show; the rest open with "Show all news".
 announcements:
   enabled: true
-  scrollable: true
-  limit: 3
+  limit: 4
 
-latest_posts:
-  enabled: false
-  scrollable: true
-  limit: 3
+join:
+  title: We're recruiting <em>curious, rigorous</em> people.
+  text: >
+    We welcome prospective PhD students, visiting scholars, and collaborators who want to build
+    computational and analytical methods that capture how societies, infrastructure, and
+    environmental stressors interact across scales. Current opportunities and how to apply are
+    described on the Join page.
+  button: Visit the Join page
+  link: /join/
 ---
 
-I am building the **Rincon Research Group** at the **University of Colorado
-Boulder**, joining the Department of Civil, Environmental, and Architectural
-Engineering as an Assistant Professor in Spring 2027. The group develops
-computational and probabilistic methods for **resilient, adaptive, and equitable
-infrastructure systems**, so that urban infrastructure performs safely and fairly
-now and into the future.
+The Adaptive Socio-Physical Infrastructure Lab at the University of Colorado Boulder develops
+computational and probabilistic methods to evaluate, design, and manage infrastructure systems
+exposed to deterioration, natural hazards, and climate stressors. These methods show how damage to
+physical systems reaches the people who depend on them, and help decision-makers choose
+interventions that keep urban infrastructure safe, resilient, and fair, now and into the future.
 
-I aim to solve pressing practical problems in the reliability, risk, and
-resilience of multiscale infrastructure. I develop methods that simulate,
-measure, and predict how infrastructure performs under deterioration and natural
-hazards across diverse spatio-temporal domains. On top of this foundation, I
-study how uncertainties in these models, including those arising from our own
-modeling choices, shape the decisions built on them, and how to manage that
-uncertainty in the development process, for example, through decision-theoretic
-frameworks.
-
-Currently, I am looking for enthusiastic students and collaborators who want to
-build computational and analytical methods that capture how societies,
-infrastructure, and environmental stressors interact across scales. If that
-sounds like you, visit the [Join](/join/) page to learn more.
-
-For more on my background and path into this work, see the [full bio →](/bio/).
+The lab is led by [Raul Rincon](/bio/), who joins the Department of Civil, Environmental, and
+Architectural Engineering as Assistant Professor in Spring 2027.

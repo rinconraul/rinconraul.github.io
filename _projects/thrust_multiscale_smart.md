@@ -5,6 +5,7 @@ description: We ask how to make structure-to-network scale reliability, risk, an
 img: assets/img/thrust1.png
 importance: 1
 category: Research Thrusts
+bib_tag: multiscale  # papers with this keyword in papers.bib are listed here and on the Research page
 related_publications: false
 ---
 

@@ -5,6 +5,7 @@ description: Quantifying not just parameter uncertainty but the hidden uncertain
 img: assets/img/thrust2.png
 importance: 2
 category: Research Thrusts
+bib_tag: uncertainty  # papers with this keyword in papers.bib are listed here and on the Research page
 related_publications: false
 ---
 

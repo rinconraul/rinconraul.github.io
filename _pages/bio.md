@@ -8,7 +8,7 @@ nav: false
 
 I am an incoming Assistant Professor in the Department of Civil, Environmental,
 and Architectural Engineering at the **University of Colorado Boulder**, joining
-in Spring 2027, where I am building the **Rincon Research Group**. The group
+in Spring 2027, where I am building the **Adaptive Socio-Physical Infrastructure Lab**. The lab
 develops computational and probabilistic methods for resilient, adaptive, and
 equitable infrastructure systems, so that urban infrastructure performs safely
 and fairly now and into the future. I envision a move toward systemic approaches
@@ -29,7 +29,7 @@ from analyzing real-world structural failures and the mechanistic performance of
 structural members to probabilistic analysis of systems composed of multiple
 levels of components.
 
-If you are interested in joining the group as a PhD student or collaborating on
+If you are interested in joining the lab as a PhD student or collaborating on
 research, please visit the [Join](/join/) page.
 
 ---
@@ -47,4 +47,4 @@ research, please visit the [Join](/join/) page.
 - **2018** — Outstanding Journal Paper Award, ASCE Journal of Performance of Constructed Facilities
 - **2009** — Mario Galán Gómez Scholarship, ECOPETROL (top 2 students per department), Colombia
 
-<p><a href="/assets/pdf/Raul_Rincon_CV.pdf"><b>Download full CV (PDF) &rarr;</b></a></p>
+<p><a href="/assets/pdf/Raul_Rincon_CV.pdf"><b>Download full CV (PDF)</b></a></p>

@@ -20,6 +20,24 @@
     <!-- Header -->
     {% include header.liquid %}
 
+    {% if page.layout == 'page' or page.layout == 'profiles' %}
+      <!-- Page title band (replaces al-folio's plain post header) -->
+      {% if page.kicker %}
+        {% assign band_kicker = page.kicker %}
+      {% elsif page.collection == 'projects' %}
+        {% assign band_kicker = 'Research' %}
+      {% else %}
+        {% assign band_kicker = nil %}
+      {% endif %}
+      <section class="asps-pageband">
+        <div class="asps-wrap">
+          {% if band_kicker %}<div class="asps-kick">{{ band_kicker }}</div>{% endif %}
+          <h1 class="asps-disp">{{ page.title }}</h1>
+          {% if page.description %}<p class="asps-pageband-desc">{{ page.description }}</p>{% endif %}
+        </div>
+      </section>
+    {% endif %}
+
     <!-- Content -->
     <div class="container mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}

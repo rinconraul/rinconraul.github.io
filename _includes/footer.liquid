@@ -1,30 +1,47 @@
-{% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
-{% endcapture %}
-
-{% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      {{ footer_contents }}
-    </div>
-  </footer>
-{% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
-    {% if site.newsletter.enabled %}
-      {% include newsletter.liquid %}
+<footer class="asps-footer" role="contentinfo">
+  <div class="asps-wrap asps-foot-grid">
+    {% if page.permalink == '/' and site.group.pi_photo %}
+      <img
+        class="asps-foot-photo"
+        src="{{ site.group.pi_photo | prepend: '/assets/img/' | relative_url }}"
+        alt="{{ site.first_name }} {{ site.last_name }}"
+        loading="lazy"
+      >
+    {% elsif site.group.logo %}
+      <a class="asps-foot-logo" href="{{ site.group.affiliation_url }}" target="_blank" rel="noopener">
+        <img src="{{ site.group.logo | prepend: '/assets/img/' | relative_url }}" alt="{{ site.group.affiliation }}" loading="lazy">
+      </a>
     {% endif %}
-
-    <div class="container">
-      {{ footer_contents }}
+    <div>
+      <h3>{{ site.first_name }} {{ site.last_name }}</h3>
+      {% if site.group.pi_role %}<p>{{ site.group.pi_role }}</p>{% endif %}
+      {% if site.group.department_short %}
+        <p>
+          <a class="asps-plain" href="{{ site.group.department_url }}" target="_blank" rel="noopener">{{ site.group.department_short }}</a> ·
+          <a class="asps-plain" href="{{ site.group.affiliation_url }}" target="_blank" rel="noopener">{{ site.group.affiliation }}</a>
+        </p>
+      {% endif %}
+      {% if site.data.socials.email %}
+        <p><a href="mailto:{{ site.data.socials.email }}">{{ site.data.socials.email }}</a></p>
+      {% endif %}
     </div>
-  </footer>
-{% endif %}
+    <div class="asps-foot-links">
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
+      {% if site.data.socials.scholar_userid %}
+        <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank" rel="noopener">Google Scholar</a>
+      {% endif %}
+      {% if site.data.socials.orcid_id %}
+        <a href="https://orcid.org/{{ site.data.socials.orcid_id }}" target="_blank" rel="noopener">ORCID</a>
+      {% endif %}
+      {% if site.data.socials.linkedin_username %}
+        <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>
+      {% endif %}
+      {% if site.data.socials.github_username %}
+        <a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" rel="noopener">GitHub</a>
+      {% endif %}
+    </div>
+  </div>
+  <div class="asps-wrap asps-copy">
+    &copy; {{ site.time | date: '%Y' }} {{ site.title }}. {{ site.footer_text }}
+  </div>
+</footer>

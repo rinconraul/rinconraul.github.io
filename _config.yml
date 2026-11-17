@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Rincon Research Group # the website title (if blank, full name will be used instead)
+title: Adaptive Socio-Physical Infrastructure Lab # the website title (if blank, full name will be used instead)
 first_name: Raul
 middle_name: 
 last_name: Rincon
@@ -10,12 +10,22 @@ email: raul.rincon@colorado.edu
 # contact_note: >
   # You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Check here Raul Rincon's academic website.
+  Adaptive Socio-Physical Infrastructure Lab at the University of Colorado Boulder. From Uncertain Data and Models to Adaptive Socio-Physical Infrastructure Systems.
 footer_text: >
-  &copy; Copyright 2026 Raul Rincon.
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
-  with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme
-keywords: Raul Rincon, Jose Raul Rincon Garcia, smart resilience, equitable resilience, multiscale models, objective infrastructure modeling # add your own keywords or leave empty
+  with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+
+# Group identity used by the redesigned header, homepage, and footer
+group:
+  affiliation: University of Colorado Boulder
+  affiliation_url: https://www.colorado.edu/
+  department: Civil, Environmental, and Architectural Engineering
+  department_url: https://www.colorado.edu/ceae/
+  logo: cu-logo.png # shown in the footer on every page except the homepage
+  department_short: CEAE
+  pi_role: Assistant Professor, starting Spring 2027
+  pi_photo: raul-rincon.jpg
+keywords: Adaptive Socio-Physical Infrastructure Lab, Raul Rincon, Jose Raul Rincon Garcia, socio-physical infrastructure, smart resilience, equitable resilience, multiscale models, objective infrastructure modeling # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo_R_blue.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -47,7 +57,7 @@ repo_trophies:
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+navbar_fixed: false
 footer_fixed: false
 search_enabled: false
 socials_in_search: true
@@ -55,7 +65,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1180px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -192,6 +202,7 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - redesign_proposal/
   - vendor
 keep_files:
   - CNAME
@@ -286,7 +297,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  group_by: none # each row shows its own year (redesign)
   group_order: descending
   sort_by: year
   order: descending
@@ -392,7 +403,7 @@ enable_darkmode: false # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_progressbar: false # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------
@@ -444,7 +455,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Hanken+Grotesk:wght@300;400;500;600&family=IBM+Plex+Serif:wght@500;600&family=Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:

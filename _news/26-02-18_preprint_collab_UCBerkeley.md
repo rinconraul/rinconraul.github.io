@@ -2,6 +2,7 @@
 layout: post
 title: new collaborative preprint
 date: 2026-02-18 11:00:00
+tag: Preprint
 inline: true
 related_posts: false
 ---

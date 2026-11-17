@@ -37,7 +37,8 @@ $(document).ready(function () {
   cssLink.rel = "stylesheet";
   cssLink.type = "text/css";
 
-  let jupyterTheme = determineComputedTheme();
+  // theme.js (which defines determineComputedTheme) only loads when dark mode is enabled
+  let jupyterTheme = typeof determineComputedTheme === "function" ? determineComputedTheme() : "light";
 
   $(".jupyter-notebook-iframe-container iframe").each(function () {
     $(this).contents().find("head").append(cssLink);

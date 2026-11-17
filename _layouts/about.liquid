@@ -1,152 +1,203 @@
----
-layout: default
----
-<style>
-  .rrg-header {
-    display: flex;
-    align-items: center;
-    gap: 1.1rem;
-    flex-wrap: wrap;
-  }
-  .rrg-header .rrg-logo {
-    width: 70px;
-    height: auto;
-    flex: 0 0 auto;
-  }
-  .post-header {
-    margin-bottom: 2rem;
-  }
-  .rrg-header .post-title {
-    font-weight: 800;
-    margin: 0;
-    line-height: 1.05;
-  }
-  .rrg-header .rrg-tagline {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.01em;
-    color: var(--global-text-color-light);
-    margin: 0.25rem 0 0;
-  }
-  /* Contact block under the photo: cleaner, more web than textbook serif */
-  .profile .more-info {
-    font-family: "Roboto", sans-serif;
-    font-size: 0.9rem;
-    line-height: 1.55;
-    color: var(--global-text-color-light);
-  }
-  .profile .more-info p {
-    display: block;
-  }
-  .profile .more-info p:first-child {
-    font-weight: 600;
-    font-size: 0.98rem;
-    color: var(--global-text-color);
-  }
-  .profile .more-info a {
-    font-weight: 500;
-  }
-  @media (max-width: 575px) {
-    .rrg-header {
-      justify-content: center;
-      text-align: center;
-    }
-    .rrg-header .rrg-logo {
-      width: 51px;
-    }
-  }
-</style>
-<div class="post">
-  <header class="post-header">
-    <div class="rrg-header">
-      <img class="rrg-logo" src="{{ '/assets/img/logo_R.png' | relative_url }}" alt="Rincon Research Group logo" />
-      <div class="rrg-titletext">
-        <h1 class="post-title">
-          {% if site.title == 'blank' %}
-            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-            {{ site.last_name }}
-          {% else %}
-            {{ site.title }}
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% include head.liquid %}
+  </head>
+
+  <body class="asps-home {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    {% include header.liquid %}
+
+    <main role="main">
+      <!-- Welcome + about the group (text lives in _pages/about.md) -->
+      <section class="asps-welcome" id="about">
+        <div class="asps-wrap">
+          <div class="asps-lead">
+            <div>
+              <h1 class="asps-disp">
+                <span class="pre">Welcome to the</span>
+                <em>{{ site.title | replace: 'Socio-Physical', '<span class="asps-nw">Socio-Physical</span>' }}</em>
+              </h1>
+              {% if page.statement %}
+                <p class="asps-statement asps-disp">{{ page.statement }}</p>
+              {% endif %}
+            </div>
+            <div class="asps-intro">{{ content }}</div>
+          </div>
+
+          {% if page.pillars %}
+            <div class="asps-pillars">
+              {% for pillar in page.pillars %}
+                <div>
+                  <h2 class="asps-disp">{{ pillar.title }}</h2>
+                  {% if pillar.items %}
+                    <ul>
+                      {% for item in pillar.items %}
+                        <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                      {% endfor %}
+                    </ul>
+                  {% else %}
+                    {{ pillar.text | markdownify }}
+                  {% endif %}
+                </div>
+              {% endfor %}
+            </div>
           {% endif %}
-        </h1>
-        <p class="desc rrg-tagline">{{ page.subtitle }}</p>
-      </div>
-    </div>
-  </header>
+        </div>
+      </section>
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+      <!-- Research: tagline banner + thrust columns (thrusts come from _projects/, category "Research Thrusts") -->
+      <section id="research">
+        <div class="asps-banner">
+          <div class="asps-wrap">
+            <div class="asps-kick">Research</div>
+            {% capture tagline_em %}<em>{{ page.tagline_emphasis }}</em>{% endcapture %}
+            <h2 class="asps-disp">{{ page.subtitle | replace: page.tagline_emphasis, tagline_em }}</h2>
+          </div>
+        </div>
+        <div class="asps-research">
+          <div class="asps-wrap">
+            {% assign thrusts = site.projects | where: 'category', 'Research Thrusts' | sort: 'importance' %}
+            <div class="asps-thrusts">
+              {% for thrust in thrusts %}
+                <div class="asps-thrust">
+                  <a class="fig" href="{{ thrust.url | relative_url }}">
+                    <img src="{{ thrust.img | relative_url }}" alt="{{ thrust.title }}" loading="lazy">
+                  </a>
+                  <div>
+                    <div class="no">Thrust {{ forloop.index }}</div>
+                    <h3 class="asps-disp">
+                      <a href="{{ thrust.url | relative_url }}">{{ thrust.title }}</a>
+                    </h3>
+                    <p>{{ thrust.description }}</p>
+                    <a class="asps-more" href="{{ thrust.url | relative_url }}">See more details and references</a>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+            <div class="asps-r-all">
+              <a class="asps-more" href="{{ '/projects/' | relative_url }}">Go to the Research page</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <div class="clearfix">{{ content }}</div>
+      <!-- News timeline (items come from _news/; optional `tag:` in each file's front matter) -->
+      {% if page.announcements and page.announcements.enabled %}
+        {% assign news = site.news | reverse %}
+        {% assign news_size = news | size %}
+        {% assign news_limit = page.announcements.limit | default: 4 %}
+        <section class="asps-sec" id="news">
+          <div class="asps-wrap">
+            <h2 class="asps-disp">News</h2>
+            <div>
+              <ul class="asps-tl" id="asps-tl">
+                <span class="bar" id="asps-bar"></span>
+                {% for item in news %}
+                  <li class="{% if forloop.index > news_limit %}hide{% endif %}">
+                    <div class="hd">
+                      <span class="d">{{ item.date | date: '%b %Y' }}</span>
+                      {% if item.tag %}<span class="k {{ item.tag | downcase }}">{{ item.tag }}</span>{% endif %}
+                    </div>
+                    <div class="tx">
+                      {% if item.inline %}
+                        {{ item.content | emojify }}
+                      {% else %}
+                        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                      {% endif %}
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+              <div class="asps-news-actions">
+                {% if news_size > news_limit %}
+                  <button class="asps-toggle" id="asps-toggle" data-limit="{{ news_limit }}">Show all news</button>
+                {% endif %}
+                <a class="asps-more" href="{{ '/news/' | relative_url }}">News archive</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      {% endif %}
 
-    <hr>
+      <!-- Join -->
+      {% if page.join %}
+        <section class="asps-join" id="join">
+          <div class="asps-wrap">
+            <h2 class="asps-disp">{{ page.join.title }}</h2>
+            <div>
+              <p>{{ page.join.text }}</p>
+              <a class="asps-btn" href="{{ page.join.link | default: '/join/' | relative_url }}">{{ page.join.button }}</a>
+            </div>
+          </div>
+        </section>
+      {% endif %}
+    </main>
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">Latest News</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
+    {% include footer.liquid %}
 
-    <div class="news-link">
-      <a href="{{ '/news/' | relative_url }}">See all news →</a>
-    </div>
+    {% include scripts.liquid %}
 
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
+    <script>
+      (function () {
+        var tl = document.getElementById("asps-tl");
+        if (!tl) return;
+        var bar = document.getElementById("asps-bar");
+        var items = Array.prototype.slice.call(tl.querySelectorAll("li"));
 
-    <hr>
+        // the timeline line fills and dots light up as you read
+        function tlUpdate() {
+          var r = tl.getBoundingClientRect(),
+            mark = window.innerHeight * 0.62;
+          var p = Math.max(0, Math.min(1, (mark - r.top) / r.height));
+          bar.style.height = p * Math.max(0, r.height - 22) + "px";
+          items.forEach(function (li) {
+            if (li.classList.contains("hide")) return;
+            li.classList.toggle("seen", li.getBoundingClientRect().top + 10 < mark);
+          });
+        }
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/journal-publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+        // each item shows 3 lines, with its own "Read more"
+        function addReadMore(li) {
+          var old = li.querySelector(".asps-rm");
+          if (old && !li.classList.contains("open")) old.remove();
+          if (li.querySelector(".asps-rm") || li.classList.contains("hide")) return;
+          var tx = li.querySelector(".tx");
+          if (tx.scrollHeight > tx.clientHeight + 2) {
+            var b = document.createElement("button");
+            b.className = "asps-rm";
+            b.textContent = "Read more";
+            b.onclick = function () {
+              var o = li.classList.toggle("open");
+              b.textContent = o ? "Show less" : "Read more";
+              tlUpdate();
+            };
+            li.appendChild(b);
+          }
+        }
+        function refresh() {
+          items.forEach(addReadMore);
+          tlUpdate();
+        }
 
-      <div class="news-link">
-        <a href="{{ '/journal-publications/' | relative_url }}">See all publications →</a>
-      </div>
-    {% endif %}
+        var tog = document.getElementById("asps-toggle");
+        if (tog) {
+          var limit = parseInt(tog.getAttribute("data-limit"), 10) || 4;
+          tog.onclick = function () {
+            var open = tog.getAttribute("data-open") === "1";
+            items.slice(limit).forEach(function (li) {
+              li.classList.toggle("hide", open);
+            });
+            tog.setAttribute("data-open", open ? "0" : "1");
+            tog.textContent = open ? "Show all news" : "Show fewer";
+            refresh();
+          };
+        }
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
-  </article>
-</div>
+        window.addEventListener("scroll", tlUpdate, { passive: true });
+        window.addEventListener("resize", refresh);
+        refresh();
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(refresh);
+      })();
+    </script>
+  </body>
+</html>

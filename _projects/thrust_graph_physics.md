@@ -5,6 +5,7 @@ description: How users, owners, physical networks, and environmental stressors i
 img: assets/img/thrust3.png
 importance: 3
 category: Research Thrusts
+bib_tag: dynamic  # papers with this keyword in papers.bib are listed here and on the Research page
 related_publications: false
 ---
 

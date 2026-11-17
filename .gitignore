@@ -11,3 +11,5 @@ assets/libs/
 node_modules/
 vendor
 .idea
+# local design prototypes (not part of the site)
+redesign_proposal/

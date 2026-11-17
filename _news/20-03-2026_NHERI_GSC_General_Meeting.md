@@ -2,6 +2,7 @@
 layout: post
 title: NHERI GSC presentation
 date: 2026-03-20 11:00:00
+tag: Talk
 inline: true
 related_posts: false
 ---

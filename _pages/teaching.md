@@ -22,13 +22,13 @@ develop as researchers and as people.
 
 ---
 
-## University of Colorado Boulder
+## [University of Colorado Boulder](https://www.colorado.edu/)
 
-**Assistant Professor, CEAE** · Starting Fall 2026
+**Assistant Professor, [CEAE](https://www.colorado.edu/ceae/)** · Starting Spring 2027
 
 ---
 
-## Rice University
+## [Rice University](https://www.rice.edu/)
 
 **Co-instructor** — CEVE 562: Infrastructure Resilience to Multiple Hazards
 _Fall 2025, Houston, TX_
@@ -45,7 +45,7 @@ future pathways and acting as change agents in their communities.
 
 ---
 
-## Universidad de los Andes
+## [Universidad de los Andes](https://uniandes.edu.co/)
 
 **Full-time Lecturer and Researcher** · School of Engineering
 _Bogotá, Colombia, 2017–2020_
