@@ -53,14 +53,14 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "People",
-          description: "The Rincon Research Group at CU Boulder",
+          description: "The Adaptive Socio-Physical Infrastructure Lab at CU Boulder",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
           },
         },{id: "nav-join",
           title: "Join",
-          description: "Prospective students and collaborators",
+          description: "Prospective students and visiting scholars",
           section: "Navigation",
           handler: () => {
             window.location.href = "/join/";
@@ -93,7 +93,7 @@ ninja.data = [{
           section: "News",},{id: "news-raul-rincon-was-selected-as-a-2024-2025-future-faculty-fellow-by-the-george-r-brown-school-of-engineering-at-rice-university-see-note",
           title: 'Raul Rincon was selected as a 2024-2025 Future Faculty Fellow by the George...',
           description: "",
-          section: "News",},{id: "news-raul-rincon-accepted-a-tenure-track-faculty-position-at-the-university-of-colorado-boulder-in-the-civil-environmental-and-architectural-engineering-department-he-will-join-as-assistant-professor-in-fall-2026-see-note-by-rice-university",
+          section: "News",},{id: "news-raul-rincon-accepted-a-tenure-track-faculty-position-at-the-university-of-colorado-boulder-in-the-civil-environmental-and-architectural-engineering-department-he-will-join-as-assistant-professor-in-spring-2027-see-note-by-rice-university",
           title: 'Raul Rincon accepted a tenure-track faculty position at the University of Colorado Boulder...',
           description: "",
           section: "News",},{id: "news-raul-rincon-gave-a-presentation-at-the-14th-international-conference-on-structural-safety-and-reliability-icossar-25-in-los-angeles-ca-he-was-selected-as-one-of-the-iassar-best-student-paper-award-infrastructure-group",

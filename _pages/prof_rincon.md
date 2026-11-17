@@ -10,4 +10,4 @@ structure-to-infrastructure systems. He envisions analyzing infrastructure
 performance by considering its complex, multiscale, and evolving nature. He holds
 a Ph.D. in Civil Engineering from Rice University.
 
-[Full bio &rarr;](/bio/)
+[Full bio](/bio/)
