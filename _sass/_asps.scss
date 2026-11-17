@@ -117,7 +117,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 1030;
-  background: rgba(255, 255, 255, 0.96);
+  background: #ffffff; /* solid: the production CSS minifier breaks rgba() whites */
   backdrop-filter: blur(8px);
 }
 .asps-nav::after {
@@ -645,7 +645,7 @@ a:hover {
 .asps-join p {
   margin: 0 0 24px;
   font-size: 19.5px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #d4d2d1; /* 80% white over the espresso band, written as a solid color for the minifier */
 }
 .asps-btn,
 .asps-btn:hover {
